@@ -11,6 +11,10 @@ Let me get started with the credentials needed to run this API:
 2) you will need the include the username and password in your authentication header 
 [admin - both password and username]
 
+3) make sure to makemigrations and migrate before you play around with the Database.
+  - python3 manage.py makemigrations
+  - python3 manage.py migrate
+
 with all that aside now onto the things that I built:
 
 1) I made a model for exactly what was mentioned - pet_name, pet_ID, pet_owner_name, pet_age, pet_type, and pet_gender. I was tempted to make a relationship between owner and pets, but realised I shouldn't overcomplicate things.
