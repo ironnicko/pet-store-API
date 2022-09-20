@@ -1,7 +1,8 @@
 # Hey!
 
 ## This API uses Django and Djangorestframework for the backend, and SQLite3 for database.
-### NOTE: SQLite3 can easily be replaced by other relational Databases since Django has it's own ORM
+### NOTE: SQLite3 can easily be replaced by other relational Databases since Django has it's own ORM.
+## UPDATE : Firebase has been added in as a new branch. Do check it out!
 <p>
 This was a fun experience to showcase that I can code with a project.
 Let me get started with the credentials needed to run this API:
